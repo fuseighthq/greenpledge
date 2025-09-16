@@ -1,10 +1,9 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
-import { Icon } from '@iconify/react';
+import { ArrowRight, ChevronDown } from "lucide-react";
+import { Icon } from "@iconify/react";
 
 export default function Header() {
   const [aboutOpen, setAboutOpen] = useState(false);
@@ -89,25 +88,18 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <Link
             href="/login"
-            className="border border-[#012F38] px-4 py-1 rounded-full flex items-center gap-1 text-sm"
+            className="border border-[#012F38] px-4 py-3 rounded-full flex items-center gap-1 text-sm"
           >
             <span>
-              {/* <Image
-                src="/media/images/icons/lets-icons_user-light.svg"
-                alt="a user icon"
-                width={30}
-                height={30}
-                className=""
-              /> */}
-              <Icon icon="tabler:user"/>
+              <Icon icon="tabler:user" />
             </span>{" "}
             Login
           </Link>
           <Link
             href="/support"
-            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full shadow-md"
+            className="bg-gradient-to-b from-[#04710B] to-[#009726] hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-xl flex items-center gap-2"
           >
-            SUPPORT A FARMER →
+            SUPPORT A FARMER <ArrowRight size={18} />
           </Link>
         </div>
       </div>
