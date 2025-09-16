@@ -4,18 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import { Icon } from '@iconify/react';
 
 export default function Header() {
   const [aboutOpen, setAboutOpen] = useState(false);
   const [marketOpen, setMarketOpen] = useState(false);
 
   return (
-    <header className="w-full bg-white shadow-sm">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <header className="w-full bg-white shadow-sm py-5">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="">
           <div className="" />
           <Image
-            src="/brand_logo/Greenpledge logo it-05.svg"
+            src="/media/images/brand-logos/greenpledge-logo.svg"
             alt="Greenpledge Logo"
             width={190}
             height={100}
@@ -91,13 +92,14 @@ export default function Header() {
             className="border border-[#012F38] px-4 py-1 rounded-full flex items-center gap-1 text-sm"
           >
             <span>
-              <Image
-                src="/icons/lets-icons_user-light.svg"
+              {/* <Image
+                src="/media/images/icons/lets-icons_user-light.svg"
                 alt="a user icon"
                 width={30}
                 height={30}
                 className=""
-              />
+              /> */}
+              <Icon icon="tabler:user"/>
             </span>{" "}
             Login
           </Link>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Green Pledge website",
+  title: "Support a Farmer, Share the harvest | GreenPledge",
   description: "Making Farming System easier for farmers.",
 };
 
