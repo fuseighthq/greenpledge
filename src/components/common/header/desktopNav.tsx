@@ -97,7 +97,7 @@ export default function Header() {
           </Link>
           <Link
             href="/support"
-            className="bg-gradient-to-b from-[#04710B] to-[#009726] hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-xl flex items-center gap-2"
+            className="bg-gradient-to-b from-[#04710B] to-[#009726] hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-md flex items-center gap-2"
           >
             SUPPORT A FARMER <ArrowRight size={18} />
           </Link>

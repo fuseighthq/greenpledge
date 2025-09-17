@@ -1,0 +1,225 @@
+@layer utilities {
+  .heading-h1-regular {
+    font-size: var(--text-h1-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h1-medium {
+    font-size: var(--text-h1-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h1-semibold {
+    font-size: var(--text-h1-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h1-bold {
+    font-size: clamp(2rem, 3vw + 1rem, 18rem);
+    font-weight: var(--font-weight-700);
+    line-height: 100%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h2-regular {
+    font-size: var(--text-h2-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h2-medium {
+    font-size: var(--text-h2-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h2-semibold {
+    font-size: var(--text-h2-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h2-bold {
+    font-size: clamp(2rem, 2.5vw + 1rem, 10rem);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h3-regular {
+    font-size: var(--text-h3-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h3-medium {
+    font-size: var(--text-h3-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h3-medium-responsive {
+    font-size: clamp(1rem, 1vw + 0.4rem, 8rem);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h3-semibold {
+    font-size: var(--text-h3-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h3-bold {
+    font-size: var(--text-h3-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h4-regular {
+    font-size: var(--text-h4-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h4-medium {
+    font-size: var(--text-h4-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h4-semibold {
+    font-size: var(--text-h4-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .heading-h4-bold {
+    font-size: var(--text-h4-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: -0.02em;
+  }
+  .subtitle-regular {
+    font-size: var(--text-subtitle-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .subtitle-medium {
+    font-size: var(--text-subtitle-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .subtitle-semibold {
+    font-size: var(--text-subtitle-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .subtitle-bold {
+    font-size: var(--text-subtitle-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body1-regular {
+    font-size: var(--text-body1-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body1-medium {
+    font-size: var(--text-body1-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body1-semibold {
+    font-size: var(--text-body1-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body1-bold {
+    font-size: var(--text-body1-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body2-regular {
+    font-size: var(--text-body2-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body2-medium {
+    font-size: var(--text-body2-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body2-semibold {
+    font-size: var(--text-body2-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body2-bold {
+    font-size: var(--text-body2-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body3-regular {
+    font-size: var(--text-body3-font-size);
+    font-weight: var(--font-weight-400);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body3-medium {
+    font-size: var(--text-body3-font-size);
+    font-weight: var(--font-weight-500);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body3-semibold {
+    font-size: var(--text-body3-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .body3-bold {
+    font-size: var(--text-body3-font-size);
+    font-weight: var(--font-weight-700);
+    line-height: 154%;
+    letter-spacing: 0em;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE/Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .hide-input-focus:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+  }
+
+  .infinite-scroll {
+    animation: move-left 20s linear infinite;
+  }
+
+  @keyframes move-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-140%);
+    }
+  }
+}

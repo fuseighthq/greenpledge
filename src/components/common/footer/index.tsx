@@ -26,7 +26,7 @@ export default function Footer() {
           </p>
 
           {/* Social Icons */}
-          <div className="mt-4 flex gap-4">
+          <div className="mt-4 flex gap-4 bg-blue-400">
             <Link href="#">
               <i className="fab fa-facebook-f text-xl hover:text-green-400"></i>
             </Link>
@@ -39,6 +39,26 @@ export default function Footer() {
             <Link href="#">
               <i className="fab fa-linkedin-in text-xl hover:text-green-400"></i>
             </Link>
+          </div>
+          <div>
+            <h3 className="font-semibold mb-4">Stay in the Loop</h3>
+            <p className="text-sm text-gray-300">
+              Join our community newsletter for farm updates, produce delivery
+              windows, and new support cycles.
+            </p>
+            <form className="mt-4 flex">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="flex-1 px-3 py-2 rounded-l-md text-gray-800 focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-r-md text-white font-semibold"
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
 
@@ -118,25 +138,6 @@ export default function Footer() {
 
         {/* Newsletter + Contact */}
         <div>
-          <h3 className="font-semibold mb-4">Stay in the Loop</h3>
-          <p className="text-sm text-gray-300">
-            Join our community newsletter for farm updates, produce delivery
-            windows, and new support cycles.
-          </p>
-          <form className="mt-4 flex">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-3 py-2 rounded-l-md text-gray-800 focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-r-md text-white font-semibold"
-            >
-              Subscribe
-            </button>
-          </form>
-
           {/* Address + Contact */}
           <div className="mt-6 space-y-3 text-sm text-gray-300">
             <div className="flex items-start gap-2">
