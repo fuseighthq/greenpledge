@@ -6,13 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-b from-white to-green-50 py-16 px-6 overflow-hidden">
-      {/* Decorative Stars */}
-      <div className="absolute inset-0 flex justify-between items-start pointer-events-none">
-        <span className="text-green-800 text-xl">✦</span>
-        <span className="text-green-800 text-xl">✦</span>
-      </div>
-
+    <section className="relative bg-[url(/media/bg/Stars.svg)] py-16 px-6 ">
       <div className="max-w-6xl mx-auto text-center">
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug">

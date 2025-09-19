@@ -10,7 +10,7 @@ export default function Header() {
   const [marketOpen, setMarketOpen] = useState(false);
 
   return (
-    <header className="w-full bg-white shadow-sm py-5">
+    <header className="w-full bg-white py-5">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="">
           <div className="" />
@@ -29,7 +29,7 @@ export default function Header() {
           >
             Home
           </Link>
-          <div className="relative">
+          <div className="relative z-20">
             <button
               className="cursor-pointer flex items-center gap-1"
               onClick={() => setAboutOpen(!aboutOpen)}
@@ -53,7 +53,7 @@ export default function Header() {
               </div>
             )}
           </div>
-          <div className="relative">
+          <div className="relative z-20">
             <button
               className="cursor-pointer flex items-center gap-1"
               onClick={() => setMarketOpen(!marketOpen)}
