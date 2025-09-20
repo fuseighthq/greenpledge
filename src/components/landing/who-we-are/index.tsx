@@ -1,5 +1,6 @@
 "use client";
 
+import { PlayCircle } from "lucide-react";
 import Image from "next/image";
 
 // Data object
@@ -21,7 +22,21 @@ const whoWeAreData = {
 
 export default function WhoWeAre() {
   return (
-    <section className="relative py-16 px-6 md:px-12 lg:px-20 bg-white">
+    <section className="relative px-6 md:px-12 lg:px-20 bg-white">
+      <div className="mb-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+          <button className="cursor-pointer bg-[#04710B] border-green-100/60 shadow-xl border-4 text-white px-6 py-3 rounded-full hover:bg-[#04710B]">
+            Apply As a Farmer
+          </button>
+          <button className="flex items-center gap-2 cursor-pointer">
+            <PlayCircle
+              size={28}
+              className="drop-shadow-2xl drop-shadow-white"
+            />
+            <span className="font-medium text-text-black">Watch The Demo</span>
+          </button>
+        </div>
+      </div>
       <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* Left: Image */}
         <div className="relative">
@@ -39,7 +54,7 @@ export default function WhoWeAre() {
         </div>
 
         {/* Right: Text */}
-        <div className="bg-[url(/media/bg/Group.svg)] bg-no-repeat bg-cover bg-center min-h-auto">
+        <div className="bg-[url(/media/bg/Group.svg)] bg-no-repeat bg-center h-[605px]">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
             {whoWeAreData.heading}
           </h2>

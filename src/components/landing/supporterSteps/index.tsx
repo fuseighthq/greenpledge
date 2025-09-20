@@ -35,7 +35,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="relative bg-[url(/media/bg/Grass.svg)] py-12 px-4 md:px-12 lg:px-20">
+    <section className="relative  py-12 px-4 md:px-12 lg:px-20">
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
@@ -65,7 +65,7 @@ export default function HowItWorks() {
       </div>
 
       {/* Steps Row 2 */}
-      <div className="grid md:grid-cols-2 gap-8 mt-8">
+      <div className="grid md:grid-cols-2 gap-8 mt-8 bg-[url(/media/bg/Grass.svg)] bg-no-repeat bg-center bg-cover">
         {steps.slice(3).map((step, idx) => (
           <div
             key={idx}
